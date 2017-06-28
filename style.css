@@ -1,0 +1,44 @@
+body{
+    direction:rtl;
+    text-align: right;
+}
+
+nav {
+    background-color: rgb(144,144,144);
+}
+
+.logo {
+    /*position:absolute;*/
+}
+
+nav ul {
+   text-align: right;    
+   list-style-type: none; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right:0;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    clear:right;
+}
