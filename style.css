@@ -47,10 +47,13 @@ text-decoration: none;
     margin:auto;
 }
 .main-top{
-    float:right;
-    display: inline-block;
     position:relative;
 }
 .main-bottom{
     clear:right;
 }
+
+.top1, .top2, .top3 {
+    float: right;
+    widows: 33.3%;
+} 
