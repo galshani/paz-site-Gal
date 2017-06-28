@@ -5,14 +5,17 @@ body{
 
 nav {
     background-color: rgb(144,144,144);
+    height:80px;
+    position: relative;
 }
 
 .logo {
-    /*position:absolute;*/
+    position:absolute;
+    right:250px;
 }
 
 nav ul {
-   text-align: right;    
+   text-align: center;    
    list-style-type: none; 
 }
 
@@ -40,5 +43,14 @@ text-decoration: none;
 }
 
 .main {
+    width:900px;
+    margin:auto;
+}
+.main-top{
+    float:right;
+    display: inline-block;
+    position:relative;
+}
+.main-bottom{
     clear:right;
 }
