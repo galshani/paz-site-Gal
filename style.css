@@ -45,15 +45,32 @@ text-decoration: none;
 .main {
     width:900px;
     margin:auto;
+   position:relative;
 }
 .main-top{
-    position:relative;
-}
-.main-bottom{
-    clear:right;
+  /*  position:relative;*/
+    padding-top: 50px;
 }
 
-.top1, .top2, .top3 {
+
+.top1, .top2, .top3, .bottom1, .bottom2, .bottom3{
     float: right;
-    widows: 33.3%;
-} 
+   
+    width: 33.3%;
+    height:450px;
+}
+ .main-bottom{
+     margin-top: 50px;
+ }
+/*.main-bottom{
+    position:relative;
+    clear:right;
+}*/
+
+/*.bottom1 .bottom2 .bottom3  {
+   display: inline-block;.
+     width: 33.3%;
+}*/
+/*.bottom2 .bottom3 {
+ float: right;
+}*/
